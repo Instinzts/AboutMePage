@@ -7,6 +7,33 @@
     <title>FAQ PAGE</title>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <style>
+    .button-container {
+      text-align: center;
+      margin-top: 100px;
+    }
+  .MainPageButton {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 40px;
+    margin: 20px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+  }
+
+  .MainPageButton:hover {
+    background-color: lightseagreen;
+  }
+    </style>
 </head>
 <body>
     <main>
@@ -59,7 +86,38 @@
             </div> -->
             <!-- <hr class="hr-line"> -->
         </section>
+         <script src="faq.js"></script>
     </main>
-    <script src="faq.js"></script>
+      <div class="button-container">
+        <button class="MainPageButton" onclick="redirectToMainPage()">Go To Main Page</button>
+      </div>
+      <!-- Bootstrap Modal -->
+      <div class="modal fade" id="customAlertModal" tabindex="-1" role="dialog" aria-labelledby="customAlertModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="customAlertModalLabel">Custom Alert</h5>
+            </div>
+            <div class="modal-body">
+              <p>Redirecting back to the main page...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <script>
+        function redirectToMainPage() {
+          $('#customAlertModal').modal('show'); // Show the custom alert modal
+    
+          setTimeout(function() {
+            window.location.href = 'https://instinzts.github.io/AboutMePage/';
+          }, 2000);
+        }
+      </script>
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </body>
 </html>

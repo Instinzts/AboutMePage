@@ -1,6 +1,6 @@
 body {
+    background: black !important;
     font-family: 'Work Sans', sans-serif;
-    background-color: black;
 }
 
 .faq-heading {
@@ -12,12 +12,13 @@ body {
 
 .faq-container {
     display: flex;
+    font-family: 'Work Sans';
+    color: white;
     justify-content: center;
     flex-direction: column;
 }
 
 .faq-page {
-    color: white;
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
@@ -42,7 +43,6 @@ body {
 
 .faq-body {
     padding: 0 18px;
-    color: white;
     display: none;
     overflow: hidden;
     text-align: left; /* Align policy body text to the left */
@@ -59,37 +59,6 @@ body {
 .active:after {
     content: "\2796";
 }
-
-.policy-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.policy-page {
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-    margin: auto;
-    font-size: 20px;
-}
-
-.policy-body {
-    margin: auto;
-    width: 50%;
-    font-size: 20px;
-    padding: auto;
-    color: white;
-    line-height: 1.5;
-    text-align: left; /* Align policy body text to the left */
-}
-
-.policy-page a {
-    color: white;
-    text-decoration: underline;
-}
-
 .hr-line {
     width: 60%;
     margin: auto;
