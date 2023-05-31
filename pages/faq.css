@@ -1,0 +1,123 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+}
+
+.faq-heading {
+    border-bottom: white;
+    color: white;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq-page {
+    color: white;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+
+.faq-body {
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+}
+
+.active,
+.faq-page:hover {
+    background-color: black;
+}
+
+.faq-body {
+    padding: 0 18px;
+    color: white;
+    display: none;
+    overflow: hidden;
+    text-align: left; /* Align policy body text to the left */
+}
+
+.faq-page:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
+
+.policy-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.policy-page {
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.policy-body {
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+    padding: auto;
+    color: white;
+    line-height: 1.5;
+    text-align: left; /* Align policy body text to the left */
+}
+
+.policy-page a {
+    color: white;
+    text-decoration: underline;
+}
+
+.hr-line {
+    width: 60%;
+    margin: auto;
+    border: 1px solid white;
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .faq-page,
+    .policy-page {
+        width: 80%;
+    }
+
+    .faq-body,
+    .policy-body {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .faq-page,
+    .policy-page {
+        width: 90%;
+    }
+
+    .faq-body,
+    .policy-body {
+        width: 90%;
+    }
+}

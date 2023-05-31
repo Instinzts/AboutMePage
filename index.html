@@ -26,6 +26,7 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="pages/faq.html">FAQ's</a></li>
         <div class="cancel-btn">
           <i class="fas fa-times"></i>
         </div>
@@ -81,16 +82,12 @@
               strong foundation in engineering, combined with my passion for design and development, I'm committed to
               making a meaningful contribution to the field.</li>
           </ul>
-          <!-- <div class="button">
-              <button>Download CV</button>
-            </div> -->
         </div>
       </div>
     </div>
   </section>
 
   <!-- My Skill Section Start -->
-  <!-- Section Tag and Other Div will same where we need to put same CSS -->
   <section class="skills" id="skills">
     <div class="content">
       <div class="title"><span>My Skills</span></div>
@@ -201,8 +198,6 @@
       <div class="title"><span>Contact Me</span></div>
       <div class="text">
         <div class="topic">Have Any Project?</div>
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
-          -->
         <div class="button">
          <button onclick="window.location.href='contact.html'">Let's Chat</button>
         </div>
@@ -216,7 +211,6 @@
       <span>Created By <a href="#">{ Import } Async#7376</a> | &#169; 2023 All Rights Reserved</span>
     </div>
   </footer>
-
   <script src="script.js"></script>
   <script>
     const text = document.querySelector(".sec-text");
@@ -229,32 +223,14 @@
       }, 4000);
       setTimeout(() => {
         text.textContent = "I'm a Designer";
-      }, 8000); //1s = 1000 milliseconds
+      }, 8000); 
       setTimeout(() => {
         text.textContent = "I'm a Developer";
-      }, 10000); //1s = 1000 milliseconds
+      }, 10000); 
     }
     textLoad();
     setInterval(textLoad, 12000);
   </script>
-  <!-- <script>
-        const bubbles = document.querySelectorAll('.bubble');
-
-        bubbles.forEach((bubble) => {
-        bubble.addEventListener('mousemove', (e) => {
-        const bubbleBounds = bubble.getBoundingClientRect();
-        const x = e.clientX - bubbleBounds.left - bubbleBounds.width / 2;
-        const y = e.clientY - bubbleBounds.top - bubbleBounds.height / 2;
-
-        bubble.style.transform = `translate(${x}px, ${y}px)`;
-        });
-
-        bubble.addEventListener('mouseout', () => {
-        bubble.style.transform = 'translate(0, 0)';
-        });
-        });
-      </script>
-      -->
 </body>
 
 </html>
