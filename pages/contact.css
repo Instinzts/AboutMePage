@@ -2,13 +2,10 @@
   margin: 0;
   padding: 0;
 }
-
-
 body {
   text-align: center;
   font-family: 'Lilita One', cursive;
 }
-
 .container {
   display: flex;
   flex-direction: column;
@@ -16,7 +13,6 @@ body {
   justify-content: center;
   height: 100vh;
 }
-
 .countdown-container {
   z-index: 1;
   position: absolute;
@@ -25,12 +21,10 @@ body {
   transform: translate(-50%, -50%);
   color: white;
 }
-
 h1 {
   font-size: 48px;
   margin-bottom: 20px;
 }
-
 .strong {
   font-weight: bold;
   font-size: 24px;
