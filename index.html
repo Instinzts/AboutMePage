@@ -1,222 +1,243 @@
 <!DOCTYPE html>
 <!-- Website - www.codingnepalweb.com -->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- Move to up button -->
-    <div class="scroll-button">
-      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
-    <!-- navgaition menu -->
-    <nav>
-      <div class="navbar"> 
-        <div class="logo"><a href="#">Portfolio.</a></div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-        </ul>
-        <div class="media-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-      <div class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </div>
-    </nav>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-    <!-- Home Section Start -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <div class="text">
-          <div class="text-one">Hello,</div>
-          <div class="text-two text sec-text">I'm { Import } Async</div>
-          <div class="text-three">A humorous newbie wrangling frontend/backend code</div>
-          <!-- <div class="text-four">From The United States</div> -->
-        </div>
-        <div class="button">
-          <button>Hire Me</button>
-        </div>
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two text sec-text">I'm { Import } Async</div>
+        <div class="text-three">A humorous newbie wrangling frontend/backend code</div>
+        <!-- <div class="text-four">From The United States</div> -->
       </div>
-    </section>
+      <div class="button">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section Start -->
-    <section class="about" id="about">
-      <div class="content">
-        <div class="title"><span>About Me</span></div>
-        <div class="about-details">
-          <div class="left">
-            <img src="images/about.jpg" alt="" />
-          </div>
-          <div class="right">
-            <div class="topic">Designing Is My Passion</div>
-            <p>
-              I'm a <span class="bubble">Harvard student majoring in Engineering</span>. As a passionate individual, designing is my true calling. I have a keen interest in creating innovative solutions and pushing the boundaries of technology.
-            </p>
-            <!--
-             <p>
-              Apart from my academic pursuits, I'm also a verified Discord Bot Developer. Currently, I am dedicatedly studying to become a full front/backend developer, striving to master both the client-side and server-side aspects of web development.
-            </p>
-            <p>
-              At 21 years old, I bring youthful enthusiasm and a fresh perspective to every project I undertake. Born and raised in the United States, I am inspired by the ever-evolving world of technology and strive to make a positive impact through my work.
-            </p>
-            <p>
-              I'm constantly seeking new challenges and opportunities to grow my skills. With a strong foundation in engineering, combined with my passion for design and development, I'm committed to making a meaningful contribution to the field.
-            </p> --> 
-            <!-- <div class="button">
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/about.jpg" alt="" />
+        </div>
+        <div class="right">
+          <div class="topic">What you need to know?</div>
+          <ul class="bullet-points">
+            <span class="icon"><i class="fas fa-cloud"></i></span>
+            <li class="space-between">I'm a Harvard student majoring in Engineering. As a passionate individual,
+              designing is my true calling. I have a keen interest in creating innovative solutions and pushing the
+              boundaries of technology.</li>
+            <li class="space-between">Apart from my academic pursuits, I'm also a verified Discord Bot Developer.
+              Currently, I am dedicatedly studying to become a full front/backend developer, striving to master both the
+              client-side and server-side aspects of web development.</li>
+            <li class="space-between">At 21 years old, I bring youthful enthusiasm and a fresh perspective to every
+              project I undertake. Born and raised in the United States, I am inspired by the ever-evolving world of
+              technology and strive to make a positive impact through my work.</li>
+            <li class="space-between">I'm constantly seeking new challenges and opportunities to grow my skills. With a
+              strong foundation in engineering, combined with my passion for design and development, I'm committed to
+              making a meaningful contribution to the field.</li>
+          </ul>
+          <!-- <div class="button">
               <button>Download CV</button>
             </div> -->
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- My Skill Section Start -->
-    <!-- Section Tag and Other Div will same where we need to put same CSS -->
-    <section class="skills" id="skills">
-      <div class="content">
-        <div class="title"><span>My Skills</span></div>
-        <div class="skills-details">
-          <div class="text">
-            <div class="topic">Skills Reflects Our Knowledge</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
-            <div class="experience">
-              <div class="num">10</div>
-              <div class="exp">
-                Years Of <br />
-                Experience
-              </div>
-            </div>
-          </div>
-          <div class="boxes">
-            <div class="box">
-              <div class="topic">HTML</div>
-              <div class="per">90%</div>
-            </div>
-            <div class="box">
-              <div class="topic">CSS</div>
-              <div class="per">80%</div>
-            </div>
-            <div class="box">
-              <div class="topic">JavScript</div>
-              <div class="per">70%</div>
-            </div>
-            <div class="box">
-              <div class="topic">PHP</div>
-              <div class="per">60%</div>
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge: </div>
+          <p>With years of dedicated learning and practical experience, I have honed a versatile skill set that reflects
+            my expertise. I am proficient in various programming languages such as HTML, CSS, JavaScript, and Python.
+            Additionally, I have hands-on experience in front-end and back-end development, database management, and
+            responsive web design. My passion for learning drives me to continuously expand my knowledge and stay
+            up-to-date with the latest industry trends, ensuring that I can deliver innovative and efficient solutions
+            to meet client needs.</p>
+          <div class="experience">
+            <div class="num">10</div>
+            <div class="exp">
+              Years Of <br />
+              Experience
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- My Services Section Start -->
-    <section class="services" id="services">
-      <div class="content">
-        <div class="title"><span>My Services</span></div>
         <div class="boxes">
           <div class="box">
-            <div class="icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <div class="topic">Web Devlopment</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+            <div class="topic newboxes">HTML</div>
+            <div class="per changecboxes">90%</div>
           </div>
           <div class="box">
-            <div class="icon">
-              <i class="fas fa-paint-brush"></i>
-            </div>
-            <div class="topic">Graphic Design</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+            <div class="topic newboxes">CSS</div>
+            <div class="per changecboxes">80%</div>
           </div>
           <div class="box">
-            <div class="icon">
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <div class="topic">Digital Marketing</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+            <div class="topic newboxes">JavScript</div>
+            <div class="per changecboxes">70%</div>
           </div>
           <div class="box">
-            <div class="icon">
-              <i class="fab fa-android"></i>
-            </div>
-            <div class="topic">Icon Design</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-camera-retro"></i>
-            </div>
-            <div class="topic">Photography</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-tablet-alt"></i>
-            </div>
-            <div class="topic">Apps Devlopment</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+            <div class="topic newboxes">PHP</div>
+            <div class="per changecboxes">60%</div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact Me section Start -->
-    <section class="contact" id="contact">
-      <div class="content">
-        <div class="title"><span>Contact Me</span></div>
-        <div class="text">
-          <div class="topic">Have Any Project?</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
-          <div class="button">
-            <button>Let's Chat</button>
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
           </div>
+          <div class="topic">Web Development</div>
+          <p>I offer professional web development services to create responsive and user-friendly websites. From
+            frontend design to backend implementation, I ensure a seamless browsing experience for your target audience.
+          </p>
+        </div>
+        <div class="box myservi">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="topic">Graphic Design</div>
+          <p>I specialize in creating visually stunning graphic designs that communicate your brand's message
+            effectively. From logos and branding to marketing collaterals, I bring creativity and innovation to every
+            project.</p>
+        </div>
+        <div class="box myservi">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Digital Marketing</div>
+          <p>With my expertise in digital marketing strategies, I help businesses enhance their online presence and
+            reach their target audience. From SEO and social media marketing to content creation, I drive meaningful
+            results.</p>
+        </div>
+        <div class="box myservi">
+          <div class="icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <div class="topic">Icon Design</div>
+          <p>I create custom icon designs that align with your brand identity and enhance user experience. Whether for
+            mobile apps or websites, my icon designs are visually appealing and intuitive.</p>
+        </div>
+        <div class="box myservi">
+          <div class="icon">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <div class="topic">Photography</div>
+          <p>Through my passion for photography, I capture stunning moments and create visual stories. From portraits to
+            landscapes, I bring a unique perspective to every shot and deliver high-quality images that leave a lasting
+            impression.</p>
+        </div>
+        <div class="box myservi">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <div class="topic">Apps Development</div>
+          <p>I specialize in developing mobile applications for iOS and Android platforms. With a focus on user
+            experience and functionality, I create intuitive and engaging apps that cater to your specific business
+            needs.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer Section Start -->
-    <footer>
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
       <div class="text">
-        <span>Created By <a href="#">{ Import } Async#7376</a> | &#169; 2023 All Rights Reserved</span>
+        <div class="topic">Have Any Project?</div>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+          -->
+        <div class="button">
+         <button onclick="window.location.href='/contact.html'">Let's Chat</button>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-    <script>
-        const text = document.querySelector(".sec-text");
-        const textLoad = () => {
-            setTimeout(() => {
-                text.textContent = "I'm { Import } Async";
-            }, 2000);
-            setTimeout(() => {
-                text.textContent = "I'm a Freelancer";
-            }, 4000);
-            setTimeout(() => {
-                text.textContent = "I'm a Designer";
-            }, 8000); //1s = 1000 milliseconds
-            setTimeout(() => {
-                text.textContent = "I'm a Developer";
-            }, 10000); //1s = 1000 milliseconds
-        }
-        textLoad();
-        setInterval(textLoad, 12000); 
-    </script>
-    <script>
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">{ Import } Async#7376</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    const text = document.querySelector(".sec-text");
+    const textLoad = () => {
+      setTimeout(() => {
+        text.textContent = "I'm { Import } Async";
+      }, 2000);
+      setTimeout(() => {
+        text.textContent = "I'm a Freelancer";
+      }, 4000);
+      setTimeout(() => {
+        text.textContent = "I'm a Designer";
+      }, 8000); //1s = 1000 milliseconds
+      setTimeout(() => {
+        text.textContent = "I'm a Developer";
+      }, 10000); //1s = 1000 milliseconds
+    }
+    textLoad();
+    setInterval(textLoad, 12000);
+  </script>
+  <!-- <script>
         const bubbles = document.querySelectorAll('.bubble');
 
         bubbles.forEach((bubble) => {
@@ -233,5 +254,7 @@
         });
         });
       </script>
-  </body>
+      -->
+</body>
+
 </html>
