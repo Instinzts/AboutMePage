@@ -98,7 +98,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #4070f4;
+  color:  white;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -625,3 +625,5 @@ footer .text span a:hover{
     color: #4070f4;
   }
 }
+
+

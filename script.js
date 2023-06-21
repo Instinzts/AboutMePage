@@ -69,3 +69,23 @@ function getRandomColor() {
   }
   return color;
 }
+
+//New Script
+
+const text = document.querySelector(".sec-text");
+    const textLoad = () => {
+      setTimeout(() => {
+        text.textContent = "I'm { Import } Async";
+      }, 2000);
+      setTimeout(() => {
+        text.textContent = "I'm a Freelancer";
+      }, 4000);
+      setTimeout(() => {
+        text.textContent = "I'm a Designer";
+      }, 8000); 
+      setTimeout(() => {
+        text.textContent = "I'm a Developer";
+      }, 10000); 
+    }
+    textLoad();
+    setInterval(textLoad, 12000);
